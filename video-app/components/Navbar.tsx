@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import MobileNav from './ui/MobileNav'
-import { SignedIn } from '@clerk/nextjs/dist/types/client-boundary/controlComponents'
+import { SignedIn } from '@clerk/nextjs'
 import { UserButton } from '@clerk/nextjs'
 
 const Navbar = () => {

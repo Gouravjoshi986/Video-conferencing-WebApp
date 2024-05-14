@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-import MobileNav from './ui/MobileNav'
+import MobileNav from './MobileNav'
 import { SignedIn } from '@clerk/nextjs'
 import { UserButton } from '@clerk/nextjs'
 

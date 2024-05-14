@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import HomeCard from "./HomeCard";
-import MeetingModal from "@/components/ui/MeetingModal"
+import MeetingModal from "@/components/MeetingModal"
 import { useUser } from "@clerk/nextjs";
 import { Call, useStreamVideoClient } from "@stream-io/video-react-sdk";
 import { useToast } from "@/components/ui/use-toast";

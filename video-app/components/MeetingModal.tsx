@@ -5,7 +5,7 @@ import {
   } from "@/components/ui/dialog"
 import Image from 'next/image'
 import { cn } from '@/lib/utils'
-import { Button } from './button';
+import { Button } from './ui/button';
 
 
 interface MeetingModalProps{

@@ -6,7 +6,7 @@ import '@stream-io/video-react-sdk/dist/css/styles.css'
 import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] });
 import { Metadata } from "next";
-
+import 'react-datepicker/dist/react-datepicker.css'
 export const metadata: Metadata = {
   title: "YOOM",
   description: "Video calling app",

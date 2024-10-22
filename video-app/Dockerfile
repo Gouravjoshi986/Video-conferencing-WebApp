@@ -32,3 +32,7 @@ EXPOSE 3000
 
 # Step 10: Define the command to run your Next.js app in production mode
 CMD ["npm", "run", "dev"]
+
+# docker build -t my-video-app .
+# docker run -d -p 3000:3000 my-video-app
+
